@@ -1,5 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);
 
+img {
+  outline: 1px solid #666
+}
+
 body {
   padding:50px;
   font:18px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
