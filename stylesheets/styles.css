@@ -2,9 +2,8 @@
 
 body {
   padding:50px;
-  font:14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color:#777;
-  font-weight:300;
+  font:18px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color:#000;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -96,9 +95,21 @@ img {
 }
 
 header {
-  width:270px;
+  width:340px;
   float:left;
   position:fixed;
+}
+
+header small {
+  display: block;
+}
+header h1 {
+  margin-bottom: 3px;
+}
+
+header em {
+  display: block;
+margin-bottom: 15px;
 }
 
 header ul {
